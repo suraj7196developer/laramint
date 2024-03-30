@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
             QuizSeed::class,
             QuestionSeed::class,
             
-            // EducationSeeder::class,
+            EducationSeeder::class,
             ParticipantSeeder::class,
             PlanSeeder::class,
             ConfigurationSeed::class,

@@ -15,7 +15,7 @@ class ConfigurationSeed extends Seeder
     {
         \App\Models\Configuration::factory()->create([
             'config_type' => 'SiteName',
-            'config_value' => json_encode('Laramint LMS'),
+            'config_value' => json_encode('BinayakEdu'),
             'config_category' => 'global'
         ]);
 
@@ -24,13 +24,13 @@ class ConfigurationSeed extends Seeder
             'config_type' => 'NoReplyEmail',
             'config_value' => json_encode([
                 'MAIL_MAILER' => 'smtp',
-                'MAIL_HOST' => 'laramint.com',
-                'MAIL_PORT' => '465',
-                'MAIL_USERNAME' => 'no-reply@laramint.com',
-                'MAIL_PASSWORD' => '*********',
-                'MAIL_ENCRYPTION' => null,
-                'MAIL_FROM_ADDRESS' => 'no-reply@laramint.com',
-                'MAIL_FROM_NAME' => "No-Reply: LMS Gamification",
+                'MAIL_HOST' => 'smtp.gmail.com',
+                'MAIL_PORT' => '587',
+                'MAIL_USERNAME' => 'warispc12334@gmail.com',
+                'MAIL_PASSWORD' => 'xjgfptbyqsgdurld',
+                'MAIL_ENCRYPTION' => 'tls',
+                'MAIL_FROM_ADDRESS' => 'warispc12334@gmail.com',
+                'MAIL_FROM_NAME' => "No-Reply: BinayakEdu Gamification",
             ]),
             'config_category' => 'global'
         ]);
